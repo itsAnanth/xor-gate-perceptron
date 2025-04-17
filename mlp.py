@@ -65,7 +65,7 @@ class MultiLayerPerceptron:
             # loss = np.mean(np.square(training_outputs - predicted_output))
             self.losses.append(loss)
             
-            # Annaa just onn padikkuvane git
+            # Tested with epochs (gauthamkrishnalj@gmail.com)
             if epoch % 100 == 0:
                 print(f'Epoch {epoch+1}/{self.epochs}, Loss: {loss:.6f}')
     
