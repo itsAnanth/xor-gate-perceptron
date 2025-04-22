@@ -1,5 +1,5 @@
 # XOR-GATE-Perceptron Implementation
 
-test
+test failed
 
 
